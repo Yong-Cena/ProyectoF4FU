@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProyectoFood4You.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFood4You"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="FOOD4YOU&#xD;&#xA;" HorizontalAlignment="Left" Margin="589,10,0,0" VerticalAlignment="Top" Width="201" Height="53" FontWeight="Bold" FontSize="20" Foreground="#FF328408"/>
+        <Button x:Name="btTrans" Content="Transporte" HorizontalAlignment="Center" Margin="0,89,0,0" VerticalAlignment="Top" Height="70" Width="196" Click="clickTransporte" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="btRuta" Content="Ruta" HorizontalAlignment="Left" Margin="39,0,0,0" VerticalAlignment="Center" Height="70" Width="196" Click="clickRuta" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="btDonacion" Content="Donación" HorizontalAlignment="Left" Margin="555,0,0,0" VerticalAlignment="Center" Height="70" Width="196" Click="clickDonacion" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="btPatrocinador" Content="Patrocinador" HorizontalAlignment="Center" Margin="0,293,0,0" VerticalAlignment="Top" Height="70" Width="196" Click="clickPatrocinador" FontWeight="Bold" FontSize="24"/>
+
+    </Grid>
+</Window>

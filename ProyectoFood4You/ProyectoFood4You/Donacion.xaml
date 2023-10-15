@@ -1,0 +1,22 @@
+﻿<Window x:Class="ProyectoFood4You.Donacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFood4You"
+        mc:Ignorable="d"
+        Title="Donacion" Height="523" Width="858">
+    <Grid>
+        <Button x:Name="btMostrarTodo" Content="Mostrar todas las donaciones" HorizontalAlignment="Left" Margin="24,53,0,0" VerticalAlignment="Top" Height="56" Width="295" FontWeight="Bold" FontSize="20" Click="btMostrarTodo_Click"/>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="339,53,10,253"/>
+        <Label Content="idDonacion" HorizontalAlignment="Left" Margin="24,278,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="24,348,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Label Content="Kg's de comida" HorizontalAlignment="Left" Margin="24,407,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Margin="183,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="28" FontWeight="Bold" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Margin="211,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="39"/>
+        <TextBox HorizontalAlignment="Left" Margin="211,407,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="39"/>
+        <Button x:Name="btModificar" Content="Modificar" HorizontalAlignment="Left" Margin="429,330,0,0" VerticalAlignment="Top" Height="55" Width="161" Click="btModificar_Click" FontWeight="Bold" FontSize="24"/>
+        <Button x:Name="btRegresar" Content="Regresar" HorizontalAlignment="Left" Margin="649,407,0,0" VerticalAlignment="Top" Height="67" Width="180" FontWeight="Bold" FontSize="24" Click="btRegresar_Click"/>
+
+    </Grid>
+</Window>
